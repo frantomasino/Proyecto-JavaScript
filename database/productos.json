@@ -1,0 +1,99 @@
+[
+    {
+      "nombre": "Palo Malik",
+      "imagen": "img/palo1.webp",
+      "precio": 230000,
+      "categoria": "palos"
+    },
+    {
+      "nombre": "Palo Vlack",
+      "imagen": "img/palo2.webp",
+      "precio": 270000,
+      "categoria": "palos"
+    },
+    {
+      "nombre": "Palo Adidas",
+      "imagen": "img/palo6.webp",
+      "precio": 290000,
+      "categoria": "palos"
+    },
+    {
+      "nombre": "Palo Reves",
+      "imagen": "img/palo8.webp",
+      "precio": 115000,
+      "categoria": "palos"
+    },
+    {
+      "nombre": "Funda Vlack",
+      "imagen": "img/funda1.webp",
+      "precio": 110000,
+      "categoria": "fundas"
+    },
+    {
+      "nombre": "Funda Osaka",
+      "imagen": "img/funda2.webp",
+      "precio": 170000,
+      "categoria": "fundas"
+    },
+    {
+      "nombre": "Funda Grays",
+      "imagen": "img/funda3.webp",
+      "precio": 130000,
+      "categoria": "fundas"
+    },
+    {
+      "nombre": "Funda Malik",
+      "imagen": "img/funda4.webp",
+      "precio": 125000,
+      "categoria": "fundas"
+    },
+    {
+      "nombre": "Guante Grays",
+      "imagen": "img/guantes1.webp",
+      "precio": 80000,
+      "categoria": "guantes"
+    },
+    {
+      "nombre": "Guante Vlack",
+      "imagen": "img/guantes2.webp",
+      "precio": 70000,
+      "categoria": "guantes"
+    },
+    {
+      "nombre": "Guante Adidas",
+      "imagen": "img/guantes4.webp",
+      "precio": 20000,
+      "categoria": "guantes"
+    },
+    {
+      "nombre": "Guante Osaka",
+      "imagen": "img/guantes3.webp",
+      "precio": 35000,
+      "categoria": "guantes"
+    },
+    {
+      "nombre": "Protector Bucal",
+      "imagen": "img/protector1.webp",
+      "precio": 8000,
+      "categoria": "accesorios"
+    },
+    {
+      "nombre": "Canilleras Vlack",
+      "imagen": "img/canilleras1.webp",
+      "precio": 13550,
+      "categoria": "accesorios"
+    },
+    {
+      "nombre": "Botines Adidas",
+      "imagen": "img/botines.webp",
+      "precio": 234550,
+      "categoria": "accesorios"
+    },
+    {
+      "nombre": "Cubre Grip",
+      "imagen": "img/cubre1.webp",
+      "precio": 12000,
+      "categoria": "accesorios"
+    }
+  ]
+  

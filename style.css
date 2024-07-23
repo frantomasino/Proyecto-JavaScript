@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+
+  .cart {
+    color: #000000;
+  }
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+}
+
+.product {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block; 
+  text-align: center;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  margin: 0;
+}
+
+.product p {
+  margin-top: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+h1 { 
+  text-align: center;
+  color: red;
+}
+
+
+.cart-content form {
+  margin-top: 20px;
+}
+
+.cart-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+
+.cart-content button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-content button:hover {
+  background-color: #0056b3;
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-left: 1px solid #ccc;
+}
+
+.cart a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: red;
+}
+
+.cart-icon {
+  margin-right: 5px;
+}
+
+.cart-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  background-color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: none;
+  z-index: 1;
+}
+
+.cart-content.show {
+  display: block;
+}
+
+
+#carrito-compras {
+border: 1px solid #ccc;
+padding: 10px;
+margin-top: 20px;
+}
+
+#lista-carrito {
+list-style: none;
+padding: 0;
+}
+
+#lista-carrito li {
+margin-bottom: 5px;
+}
+
+.eliminar-btn {
+background-color: #ff6347;
+color: white;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+ .product .cantidad-input {
+  width: 60px;  
+  padding: 8px;  
+  font-size: 16px;  
+  border: 1px solid #ccc;  
+  border-radius: 4px;  
+  box-sizing: border-box;  
+  margin-right: 10px;  
+}
+
+ .product .remove-btn {
+    color: white;  
+  border: none;
+  border-radius: 4px;  
+  padding: 8px 12px;  
+  cursor: pointer;  
+}
+
+.contenedor-carrito {
+  display: flex;
+  justify-content: center;
+}
+
+#cart-icon {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#cart-icon:hover {
+  color: red;
+}
+
+#lista-carrito {
+  list-style-type: none;
+  padding: 0;
+}
+
+#total {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;  
+  margin-top: 20px;  
+}
+
+
+p {
+  font-size: 16px; 
+  line-height: 1.5;  
+  margin: 20px;  
+  text-align: justify;  
+}
+
+.logoprincial {
+  height: 100px;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;  
+margin-right: -15px; 
+margin-left: -15px;
+}
+
+
+#products {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center; 
+min-height: 100vh;  
+padding: 20px;  
+}
+
+.card {
+width: 250px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+border: 2px solid white;
+border-radius: 8px;
+padding: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+background-color: white; 
+}
+
+
+.card-img-top {
+max-width: 100%;
+height: auto;
+}
+
+.cantidad-input {
+width: 60px;
+padding: 8px;
+font-size: 16px;
+border: 1px solid white;
+border-radius: 4px;
+}
+
+.card-body {
+background-color: white;
+padding: 10px; 
+display: flex;  
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+height: 100%; 
+}
+
+.product {
+position: relative;  
+}
+
+.cantidad-input {
+
+border: 1px solid #ccc;
+}
+
+.filtro-wrapper {
+display: flex;
+justify-content: center;  
+align-items: center;  
+margin-bottom: 20px;
+}
+
+.filtro-container {
+margin-right: 20px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+select {
+width: 200px; 
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #fff;
+font-size: 16px;
+}
+
+option[value="todos"] {
+font-style: italic;
+color: #999;
+}
